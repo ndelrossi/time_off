@@ -8,6 +8,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+gem 'momentjs-rails'
+gem 'fullcalendar-rails'
+
 group :production do
   gem 'rails_12factor', '0.0.3'
 end
