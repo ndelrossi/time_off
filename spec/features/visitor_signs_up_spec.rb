@@ -3,7 +3,8 @@ require 'rails_helper'
 feature "Visitor signs in" do
 
   scenario "with valid info" do
-    visit new_user_registration_path
+    visit root_path
+    click_link "Sign Up"
 
     fill_in "Email",                 with: "foo@bar.com"
     fill_in "Password",              with: "pwd12345"
